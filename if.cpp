@@ -9,8 +9,20 @@ int main()
   if (x % 2 == 0)
   {
     cout << "this num is even";
-  }else
+  }
+  else
   {
     cout << "NO!";
   }
 }
+
+// int x, y, z;
+// if (y != 0)
+// {
+//   z = x / y;
+//   cout << z;
+//   else
+//   {
+//     cout << "error";
+//   }
+// }
