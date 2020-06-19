@@ -22,3 +22,5 @@ int main(int argc, const char **argv)
   cout << " The Av salis: " << sum / size << "\n";
   return 0;
 }
+// Expression has to be int not float
+// case has to be const
