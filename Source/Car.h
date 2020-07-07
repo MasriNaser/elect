@@ -15,4 +15,6 @@ public:
   string getMaker();
   void setModel(int x);
   int getModel();
+  void setColor(string x);
+  string getColor();
 };
