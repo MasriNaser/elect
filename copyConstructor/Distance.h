@@ -11,4 +11,5 @@ private:
 public:
   void setDistance(int f, float i);
   void print();
+  Distance add_distance(Distance x);
 };

@@ -3,7 +3,6 @@
 #include "Distance.h"
 using namespace std;
 
-
 void Distance::setDistance(int f, float i)
 {
   feet = f;
@@ -14,4 +13,12 @@ void Distance::print()
 {
   cout << "Feet= " << feet << endl
        << "inches = " << inch << endl;
+}
+
+Distance Distance::add_distance(Distance x)
+{
+  Distance result;
+  result.feet = feet + x.feet;
+  result.inch = inch + x.inch;
+  return result;
 }
