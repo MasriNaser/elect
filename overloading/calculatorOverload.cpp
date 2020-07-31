@@ -7,6 +7,11 @@ int calculatorOverload::add(int num1, int num2)
 {
   return num1 + num2;
 }
+// mal with static
+int calculatorOverload::mal(int x, int y)
+{
+  return x * y;
+}
 
 int calculatorOverload::add(int num1, int num2, int num3)
 {
