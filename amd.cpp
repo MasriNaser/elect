@@ -11,8 +11,8 @@ int main()
   s = y - x;
   m = x * y;
   d = x / y;
-  cout << a << " adding" << endl
-       << s << " sub" << endl
-       << m << "multi" << endl
-       << d << "divid";
+  cout << a << " adding " << endl
+       << s << " sub " << endl
+       << m << "multi " << endl
+       << d << "divid ";
 }
